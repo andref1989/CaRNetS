@@ -1,0 +1,21 @@
+Package: CARNETS
+Title: Cancer Regulatory Networks and Susceptibilities
+Version: 0.0.0.9000
+Authors@R: person("Andre", "Forbes", email = "anf2034@med.cornell.edu", role = c("aut", "cre"))
+Description: Reconstruction of cancer regulatory networks generated using DGTAC (Xu, Forbes et al 2022) and TF-footprinting. Identification of key TFs and patient clusters from a set of networks (n>=15) followed by identification of representative cell lines of those patient clusters. Using those representative cells lines we subsequently identify therapeutic target genes and drugs targeting those genes.
+Depends: R (>= 3.3.1)
+Imports:
+	igraph (>= 1.2.5),
+	GenomicRanges(>= 1.24.3),
+	dbscan(>= 1.1.5),
+	Rtsne(>= 0.15),
+	Hmisc(>= 4.0.3),
+	lsa(>= 0.73.2),
+	motifmatchr(>= 1.1.1),
+	ComplexHeatmap(>= 1.10.2),
+	reshape2(>= 1.4.3),
+	dplyr(>= 0.7.8)
+License: TBD
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
