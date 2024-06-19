@@ -1,0 +1,1 @@
+command: <libdir>PIQ_Flow.sh <libdir>PIQ_Pipeline.R ${  DHS_bam } ${  motifs_file } ${  PIQ_output_dir } ${  Final_output_dir } ${  motif_symbol } ${  tmp_folder }

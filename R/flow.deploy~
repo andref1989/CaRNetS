@@ -1,0 +1,1 @@
+command: sh <libdir>PIQ_Flow.sh <libdir>PIQ_CHIP_Pipeline_v4.R	-l <libdir> -c ${t chip_bam } -d ${t DHS_bam } -m ${t motifs_file } -p ${t promoter_file } -e ${t enhancer_file } -o ${t output_dir } -q ${t PIQ_dir } -s ${t motif_symbol } -t ${t tmp_folder }
